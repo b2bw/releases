@@ -1,15 +1,4 @@
-# - name: Aktuell
-#   icon: donate
-# - name: Projekte
-#   icon: donate
-# - name: Orang-Utan
-#   icon: donate
-# - name: Aktiv Werden
-#   icon: donate
-# - name: Mediathek
-#   icon: donate
-# - name: Über BOS
-#   icon: donate
+---
 - name: Patenschaft
   icon: hand-heart-ou
 - name: Spenden
