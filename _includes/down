@@ -1,0 +1,3 @@
+<div class="js-next">
+  {% include svg_icon.html name="down" %}
+</div>
