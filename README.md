@@ -2,26 +2,10 @@
 
 ## setup
 
-node version: 6.9.1
+clone this
 
-For nvm that's `nvm install v6.9.1`.
+## dev
 
-```
-npm install gulp-cli -g
-npm install pug -g
-npm install pug-cli -g
-bundle
-npm install
-```
+`jekyll serve`
 
-## usage
-
-```
-gulp
-```
-
-## deploy
-
-```
-git subtree push --prefix _site gh-pages
-```
+open browser to [localhost:4000](http://localhost:4000)
