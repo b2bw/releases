@@ -143,17 +143,14 @@ body {
 
     &.dark {
         svg {
-            fill: rgba($leaves, 0.3);
             fill: rgba($earthy1,.5);
         }
     }
 
     &.light {
-        background: rgba($leaves, 0.3);
         background:rgba($earthy1,.5);;
 
         svg {
-            fill: $earthy1;
             fill: $almost-white;
         }
     }
