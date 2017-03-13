@@ -143,17 +143,14 @@ body {
 
     &.dark {
         svg {
-            fill: rgba($leaves, 0.3);
             fill: rgba($earthy1,.5);
         }
     }
 
     &.light {
-        background: rgba($leaves, 0.3);
         background:rgba($earthy1,.5);;
 
         svg {
-            fill: $earthy1;
             fill: $almost-white;
         }
     }
@@ -405,6 +402,10 @@ h1 {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: .08rem;
+    }
+
+    p {
+      @extend .lead;
     }
 
     @include grid-column(12);
@@ -759,4 +760,40 @@ svg#process {
       font-weight: 700;
     }
 
+}
+
+footer {
+  padding: 12px;
+  @include breakpoint(medium){
+    padding: 24px;
+  }
+  background: $peach;
+  .footer-left, .footer-right, .footer-middle {
+    width: 100%;
+    float: left;
+    margin-bottom: 24px;
+
+    @include breakpoint(medium) {
+      width: 33.33%;
+      padding-right: 24px;
+    }
+  }
+  h4 {
+    font-weight: 700;
+  }
+  p {
+    line-height: .5em;
+  }
+  a {
+    color:$pale-maroon;
+  }
+
+  ul {
+    list-style: none;
+    list-style-position: outside;
+    margin-left: 0;
+    li a {
+      color: $pale-maroon;
+    }
+  }
 }
