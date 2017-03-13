@@ -22,7 +22,7 @@
      <div class="top-nav-center">
     <ul class="menu expanded">
            {% for link in site.data.biglinks %}
-              <li><a href="#"><svg><use xlink:href='#{{link.icon}}'></use></svg> <Br>{{link.name}}</a></li>
+              <li><a href="{{link.link}}"><svg><use xlink:href='#{{link.icon}}'></use></svg> <Br>{{link.name}}</a></li>
           {% endfor %}
           </ul>
     </div>
