@@ -352,11 +352,12 @@ $red-orange: #ff5035;
     }
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Francois One', cursive;
     color: $titles;
     color: $maroon;
     color: $pale-maroon;
+    font-weight: 700;
 }
 
 h1 {
