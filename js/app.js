@@ -1,23 +1,3 @@
-// //font chooser
-// var fonts = [
-// 	'Barrio',
-// 	'Anton','Francois One','Patua One','Archivo Black','Alfa Slab One','Bevan']
-
-// var fontCounter = 0;
-
-// $('#font-name h3').text('font: ' + (fontCounter+1) + "/" + fonts.length + ": " + fonts[fontCounter])
-
-
-// $('h1, .section h2').css('font-family',fonts[fontCounter]).on('click',function(){
-// 	if(fontCounter < (fonts.length - 1)){
-// 		fontCounter ++
-// 	} else if(fontCounter == (fonts.length -1)){
-// 		fontCounter = 0;
-// 	}
-// 	$('h1, .section h2, #titleblock h3 span').css('font-family',fonts[fontCounter])
-// $('#font-name h3').text('font: ' + (fontCounter+1) + "/" + fonts.length + ": " + fonts[fontCounter])
-// });
-
 $('.js-scroll-to').click(function(e) {
 
 	target = $($(this).attr('href'));
@@ -66,3 +46,20 @@ $('#mobile-menu-toggler, #main-menu-toggler').on('click',function(){
 $('#close-help').on('click',function(){
 	TweenMax.to($('#helpbar'),.2,{autoAlpha:0})
 });
+
+
+//submit paypal form
+function submitPayPal(code){
+
+ form = document.createElement('form');
+				formContent = '<input type="hidden" name="cmd" value="_s-xclick">';
+				formContent += '<input type="hidden" name="hosted_button_id" value="'+code+'">';
+        formContent += '<input type="submit" />';
+        form.method = 'post';
+        form.action = 'https://www.paypal.com/cgi-bin/webscr';
+        form.target = '_top';
+        form.innerHTML = formContent;
+        form.style.display = 'none';
+        document.body.appendChild(form);
+        form.querySelector('[type="submit"]').click();
+			}

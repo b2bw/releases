@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="subpage">
+
+
+
+  <div class="hide">
+    {% include svg.svg %}
+  </div>
+          {% include leaves.svg id="leaves" %}
+
+        {% include header.html %}
+        {{ content }}
+
+
+  <script src="js/foundation.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+  <!-- <script src="js/timeline.js"></script> -->
+  <script src="js/app.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  {% include google_analytics.html %}
+  </body>
+</html>
