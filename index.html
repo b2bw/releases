@@ -168,12 +168,25 @@ title: Auswilderungen
   </div>
   <div class="section-content">
     <p class="lead">Wenn Sie auf dem Laufenden gehalten werden wollen zu den anstehenden Auswilderungen, unseren Pre-Release Aktivitäten oder Entwicklungen im Post-Release Monitoring, registrieren Sie sich hier mit Ihrer E-Mail Adresse. Sie bekommen dann regelmässig unsere Orang-Utan News und Mailings zugestellt.<br></p>
-    <a href="#" class="text-center">
-      <button class="bos-button">{% include svg_icon.html name="signup" %} updates erhalten &nbsp; &nbsp;&nbsp;<br></button>
-    </a>
+    <h3>Downloads</h3>
+<ul>
+{% for link in site.data.downloads %}
+<li>
+<a href="uploads/{{link.link}}" target="_blank">
+  {{link.name}}
+</a>
+</li>
+{% endfor %}
+</ul>
+
+<div class="space-above clearfix">
+
+  <a href="#" class="text-center">
+    <button class="bos-button">{% include svg_icon.html name="signup" %} updates erhalten &nbsp; &nbsp;&nbsp;<br></button>
+  </a>
+</div>
   </div>
 </div>
 <div class="svg dark">
   {% include leaves.svg id="" %}
 </div>
-<p><br></p><p><br></p>
