@@ -10,7 +10,7 @@ title: bos-comdev
 email: nickyniles@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A starter kit for prototyping UI animations with Jekyll, Foundation 6, HAML.
-baseurl: "/bos-comdev" # the subpath of your site, e.g. /blog
+baseurl: "/lp-releases" # the subpath of your site, e.g. /blog
 url: "https://lab27.github.io" # the base hostname & protocol for your site
 twitter_username: flavrcrystals
 github_username:  lab27
