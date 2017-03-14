@@ -5,15 +5,19 @@ prefix=s3://www.bos-schweiz.ch
 # create a temp file to hold html
 tmp=$(mktemp --suffix=.html)
 
+
 # MAPPING
-# -------
-# http://born2bewild.org/releases/                        -> /de/orang-utan-auswilderung.htm
-# http://born2bewild.org/releases/ost-kalimantan.html     -> /de/orang-utan-auswilderung/ost-kalimantan.htm
-# http://born2bewild.org/releases/salat-island.html       -> /de/orang-utan-auswilderung/salat-island.htm
-# http://born2bewild.org/releases/technische-details.html -> /de/orang-utan-auswilderung/technische-details.htm
+# =======
+# http://born2bewild.org            -> http://bos-schweiz.ch
+# ------------------------------------------------------------------------------
+# /releases                         -> /de/auswilderungen/auswilderung12.htm
+# /releases/ost-kalimantan.html     -> /de/auswilderungen/ost-kalimantan.htm
+# /releases/salat-island.html       -> /de/auswilderungen/salat-island.htm
+# /releases/technische-details.html -> /de/auswilderungen/technische-details.htm
+
 
 base='http://born2bewild.org/releases'
-target='/de/orang-utan-auswilderung'
+target='/de/auswilderungen'
 
 # retrieve html from primary hosting into temp file
 wget -kO $tmp $base/
@@ -24,7 +28,7 @@ sed -i "s|$base/salat-island.html|$target/salat-island.htm|" $tmp
 sed -i "s|$base/technische-details.html|$target/technische-details.htm|" $tmp
 
 # upload temp file to secondary hosting via s3
-aws s3 cp --acl public-read $tmp $prefix$target.htm
+aws s3 cp --acl public-read $tmp $prefix$target/auswilderung12.htm
 
 # ost-kalimantan
 wget -kO $tmp $base/ost-kalimantan.html
@@ -51,5 +55,5 @@ aws s3 cp --acl public-read $tmp $prefix$target/technische-details.htm
 rm $tmp
 
 # send an email to local user root
-echo "http://www.bos-schweiz.ch/de/orang-utan-auswilderung.htm" \
+echo "http://www.bos-schweiz.ch/de/auswilderungen/auswilderung12.htm" \
     | mail -s "LP Releases has been updated." root
