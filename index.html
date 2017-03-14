@@ -7,19 +7,20 @@ title: Auswilderungen
   <div class="section-title">
     <h1 class="text-center">Auswilderungen</h1>
   </div>
-  <div class="section-content">
-    <img src="uploads/2017/03/12/-%20Sawa%20dan%20Sawi-1.jpg">
     <div class="floating-textbox">
       <h3>
         <span class="question">Klappe auf, Affe raus!?&nbsp;<span class="answer">Ganz so einfach ist es leider nicht. Alle Kandidaten durchlaufen die folgenden drei Phasen einer Auswilderung: Das Pre-Release, Release und Post-Release Monitoring.</span></span>
       </h3>
     </div>
+  <div class="section-content">
+    <img src="uploads/2017/03/12/-%20Sawa%20dan%20Sawi-1.jpg">
+
       <p class="lead">Zunächst müssen die Orang-Utans die Freiheit „üben“ - auf künstlich angelegten oder natürlichen Flussinseln, nahe oder innerhalb der BOS Rettungsstationen. Nachdem sie jahrelang auf ein Leben in der Wildnis vorbereitet wurden, überlassen wir sie dort erstmals sich selbst. Während dieser <i>Pre-Release</i>-Phase werden die Tiere regelmässig überwacht, aber nur noch zweimal täglich zugefüttert. Erst wenn Sie sich auf den Übungsinseln bewährt haben, können sie guten Gewissens in die Freiheit entlassen werden.</p>
   </div>
   <div class="section-content">
     <p class="lead">Für die eigentliche Auswilderung, das <i>Release</i>, muss in der Zwischenzeit ein geeignetes Gebiet gefunden werden, dessen Schutz langfristig gewährleistet ist. Das ist alles andere als einfach. Verhandlung über Nutzungsrechte mit Behörden oder der ansässigen Bevölkerung ziehen sich oft über Jahre hin. Lange war der Mangel an sicheren Waldgebieten der Grund dafür, dass die BOS Stiftung (BOSF) nicht auswildern konnte. Erst 2010 konnte über ein eigens dafür gegründetes Privatunternehmen (PT. RHOI) eine Naturschutz-Konzession für ein Regenwaldgebiet in Ost-Kalimantan erworben werden. Das 860 km² große Waldgebiet mit dem Namen Kehje Sewen (KJ7) ist weitgehend unberührt und steht nun bis zu 90 Jahre lang der BOSF als Schutz- und Auswilderungsgebiet zur Verfügung. Darüber hinaus nutzt die BOSF bestehende Schutzgebiete in Zentral-Kalimantan für Auswilderungen: Bukit Batikap und den Nationalpark Bukit Baka Bukit Raya (BBBR NP). Vereinbarungen mit Konzessionshaltern wie z.B. Palmölkonzernen oder Holzfirmen werden ebenfalls getroffen. Auch sie stellen ungenutzte Areale für Pre-Release Aktivitäten oder Auswilderungen zur Verfügung.
     </p>
-    <h3 class="text-center">Auswilderung Zyklus</h3>
+    <h3 class="text-center">Orang-Utan Reise: Von der Rettung bis zur Auswilderung</h3>
     <img src="assets/images/auswilderung.svg" alt="">
     <p>Im Anschluss an die tatsächliche Auswilderung findet dann das so genannte <i>Post-Release Monitoring</i> statt. Implantate erlauben uns, die Orang-Utans in den ersten Wochen nach ihrer Auswilderung per Radio-Antenne zu orten und intensiv zu überwachen. Bis zu drei Jahre lang kann das BOSF Feldteam in enger Zusammenarbeit mit Wissenschaftlern und Orang-Utan Experten auf diesem Weg das Wohlergehen und das Verhalten der ausgewilderten Tiere kontrollieren und studieren.</p>
   </div>
@@ -171,25 +172,28 @@ title: Auswilderungen
   </div>
   <div class="section-content">
     <p class="lead">Wenn Sie auf dem Laufenden gehalten werden wollen zu den anstehenden Auswilderungen, unseren Pre-Release Aktivitäten oder Entwicklungen im Post-Release Monitoring, registrieren Sie sich hier mit Ihrer E-Mail Adresse. Sie bekommen dann regelmässig unsere Orang-Utan News und Mailings zugestellt.<br></p>
-    <h3>Downloads</h3>
-<ul>
-{% for link in site.data.downloads %}
-<li>
-<a href="uploads/{{link.link}}" target="_blank">
-  {{link.name}}
-</a>
-</li>
-{% endfor %}
-</ul>
 
-<div class="space-above clearfix">
+
+<div class="space-above space-below clearfix">
 
   <a href="#" class="text-center">
     <button class="bos-button">{% include svg_icon.html name="signup" %} updates erhalten &nbsp; &nbsp;&nbsp;<br></button>
   </a>
 </div>
+
+
+<h3>Downloads</h3>
+<ul>
+{% for link in site.data.downloads %}
+<li>
+<a href="uploads/{{link.link}}" target="_blank">
+{{link.name}}
+</a>
+</li>
+{% endfor %}
+</ul>
   </div>
 </div>
-<div class="svg dark">
+<div class="svg final">
   {% include leaves.svg id="" %}
 </div>

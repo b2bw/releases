@@ -1,0 +1,143 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a5e281;
+      }
+
+      .cls-2 {
+        fill: #ace183;
+      }
+
+      .cls-3 {
+        fill: #b3df84;
+      }
+
+      .cls-4 {
+        fill: #bbde86;
+      }
+
+      .cls-5 {
+        fill: #c2dd88;
+      }
+
+      .cls-6 {
+        fill: #c9db89;
+      }
+
+      .cls-7 {
+        fill: #d0da8b;
+      }
+
+      .cls-8 {
+        fill: #d8d98d;
+      }
+
+      .cls-9 {
+        fill: #dfd78e;
+      }
+
+      .cls-10 {
+        fill: #e6d690;
+      }
+
+      .cls-11 {
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-25 {
+        fill: #76686d;
+        font-family: SFUIDisplay-Bold, SF UI Display;
+      }
+
+      .cls-12, .cls-25 {
+        font-weight: 700;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-16 {
+        font-family: SFUIDisplay-Regular, SF UI Display;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-23 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-25 {
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <title>process</title>
+  <g>
+    <path class="cls-1" d="M460.08,86.57a445.73,445.73,0,0,0-120.23,61.26l112.79,78,.59.41.2.69,35.34,125.68a193.42,193.42,0,0,1,110.84-35.49l45.77-123.66L599.59,64A448.1,448.1,0,0,0,460.08,86.57Z"/>
+    <path class="cls-2" d="M236.93,250.65a445.73,445.73,0,0,0-61.26,120.23l137.11-3.17.72,0,.57.45L416.53,449a193.42,193.42,0,0,1,68.81-93.86L449.68,228.23,336.53,150.39A448.1,448.1,0,0,0,236.93,250.65Z"/>
+    <path class="cls-3" d="M152.84,514.56A445.73,445.73,0,0,0,174,647.84L283,564.68l.57-.44.72,0,130.45,5.23a193.42,193.42,0,0,1,.5-116.38L311.79,371.37l-137.29,3.53A448.1,448.1,0,0,0,152.84,514.56Z"/>
+    <path class="cls-4" d="M239.94,777.49a445.73,445.73,0,0,0,95.42,95.42l39.35-131.38.21-.69.6-.4L484.12,668a193.42,193.42,0,0,1-68-94.45l-131.75-5.31-109,83.56A448.1,448.1,0,0,0,239.94,777.49Z"/>
+    <path class="cls-5" d="M464.95,939a445.73,445.73,0,0,0,133.28,21.11L552.84,830.7l-.24-.68.25-.68,45.28-122.45A193.42,193.42,0,0,1,487.6,670.46L377.88,743.6,338.82,875.27A448.1,448.1,0,0,0,464.95,939Z"/>
+    <path class="cls-6" d="M741.92,937.43a445.73,445.73,0,0,0,120.23-61.26l-112.79-78-.59-.41-.2-.69L713.23,671.36a193.42,193.42,0,0,1-110.84,35.49L556.63,830.52,602.41,960A448.1,448.1,0,0,0,741.92,937.43Z"/>
+    <path class="cls-7" d="M965.07,773.35a445.73,445.73,0,0,0,61.26-120.23l-137.11,3.17-.72,0-.57-.45L785.47,575a193.42,193.42,0,0,1-68.81,93.86l35.66,126.95,113.15,77.84A448.1,448.1,0,0,0,965.07,773.35Z"/>
+    <path class="cls-8" d="M1049.16,509.44A445.73,445.73,0,0,0,1028,376.16L919,459.32l-.57.44-.72,0L787.24,454.5a193.42,193.42,0,0,1-.5,116.38l103.47,81.74,137.29-3.53A448.1,448.1,0,0,0,1049.16,509.44Z"/>
+    <path class="cls-9" d="M962.06,246.51a445.73,445.73,0,0,0-95.42-95.42L827.29,282.48l-.21.69-.6.4L717.88,356a193.42,193.42,0,0,1,68,94.45l131.75,5.31,109-83.56A448.1,448.1,0,0,0,962.06,246.51Z"/>
+    <path class="cls-10" d="M737.05,85A445.73,445.73,0,0,0,603.78,63.88L649.16,193.3l.24.68-.25.68L603.87,317.11A193.42,193.42,0,0,1,714.4,353.54L824.12,280.4l39.07-131.67A448.1,448.1,0,0,0,737.05,85Z"/>
+  </g>
+  <text class="cls-11" transform="translate(658 48.81)"><tspan class="cls-12">BOSF &amp; <tspan x="0" y="19.2">Do</tspan><tspan class="cls-13" x="20.62" y="19.2">r</tspan><tspan class="cls-14" x="26.59" y="19.2">f</tspan><tspan x="32.09" y="19.2">gemeinschaf</tspan><tspan class="cls-15" x="129.09" y="19.2">t</tspan><tspan x="134.76" y="19.2">en:</tspan></tspan><tspan class="cls-16"><tspan x="0" y="38.4">Bedarfsermittlung; </tspan><tspan class="cls-17" x="0" y="57.6">F</tspan><tspan x="8.29" y="57.6">ests</tspan><tspan class="cls-14" x="37.09" y="57.6">t</tspan><tspan x="41.8" y="57.6">ellung der P</tspan><tspan class="cls-18" x="123.34" y="57.6">r</tspan><tspan x="128.02" y="57.6">oblematik, </tspan><tspan x="0" y="76.8">P</tspan><tspan class="cls-18" x="9.48" y="76.8">r</tspan><tspan x="14.16" y="76.8">ojektziele, - </tspan><tspan class="cls-19" x="97.7" y="76.8">K</tspan><tspan x="107.08" y="76.8">on</tspan><tspan class="cls-14" x="124.57" y="76.8">t</tspan><tspan class="cls-17" x="129.29" y="76.8">e</tspan><tspan x="137.6" y="76.8">xt, und - </tspan><tspan x="0" y="96">Um</tspan><tspan class="cls-19" x="24.43" y="96">f</tspan><tspan x="28.88" y="96">ang; Identifikation der </tspan><tspan x="0" y="115.2">be</tspan><tspan class="cls-14" x="17.63" y="115.2">t</tspan><tspan x="22.35" y="115.2">eilig</tspan><tspan class="cls-14" x="49.98" y="115.2">t</tspan><tspan x="54.7" y="115.2">en Gruppen</tspan></tspan></text>
+  <text class="cls-11" transform="translate(893 240.81)"><tspan class="cls-12">BOSF &amp; <tspan x="0" y="19.2">Do</tspan><tspan class="cls-13" x="20.62" y="19.2">r</tspan><tspan class="cls-14" x="26.59" y="19.2">f</tspan><tspan x="32.09" y="19.2">gemeinschaf</tspan><tspan class="cls-15" x="129.09" y="19.2">t</tspan><tspan x="134.76" y="19.2">en: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="38.4">P</tspan><tspan class="cls-18" x="9.48" y="38.4">r</tspan><tspan x="14.16" y="38.4">ojektplanung und - </tspan><tspan x="0" y="57.6">entwicklung</tspan></tspan></text>
+  <text class="cls-11" transform="translate(970 473.81)"><tspan class="cls-12">BOS<tspan class="cls-20" x="32.45" y="0">F</tspan><tspan x="41.18" y="0">: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">Ant</tspan><tspan class="cls-17" x="23.76" y="19.2">r</tspan><tspan x="28.67" y="19.2">ags</tspan><tspan class="cls-14" x="53.74" y="19.2">t</tspan><tspan x="58.46" y="19.2">ellung an BOS </tspan><tspan x="0" y="38.4">Schweiz inklusi</tspan><tspan class="cls-14" x="105.1" y="38.4">v</tspan><tspan x="112.85" y="38.4">e </tspan><tspan x="0" y="57.6">Dars</tspan><tspan class="cls-14" x="31.98" y="57.6">t</tspan><tspan x="36.7" y="57.6">ellung der P</tspan><tspan class="cls-18" x="118.23" y="57.6">r</tspan><tspan x="122.91" y="57.6">oblematik, </tspan><tspan x="0" y="76.8">P</tspan><tspan class="cls-18" x="9.48" y="76.8">r</tspan><tspan x="14.16" y="76.8">ojek</tspan><tspan class="cls-14" x="42.78" y="76.8">t</tspan><tspan x="47.5" y="76.8">design, Ziele, </tspan><tspan class="cls-17" x="143.28" y="76.8">Z</tspan><tspan x="152.99" y="76.8">eitplan </tspan><tspan x="0" y="96">und Budget</tspan></tspan></text>
+  <text class="cls-11" transform="translate(924 706.81)"><tspan class="cls-12">BOS Sc<tspan class="cls-20" x="54.91" y="0">h</tspan><tspan class="cls-15" x="64.44" y="0">w</tspan><tspan x="77.24" y="0">eiz: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">Entscheid zur Un</tspan><tspan class="cls-14" x="117.4" y="19.2">t</tspan><tspan x="122.12" y="19.2">erstützung; </tspan><tspan x="0" y="38.4">Sichers</tspan><tspan class="cls-14" x="51.28" y="38.4">t</tspan><tspan x="56" y="38.4">ellung der </tspan><tspan x="0" y="57.6">Fina</tspan><tspan class="cls-21" x="28.81" y="57.6">nz</tspan><tspan x="45.1" y="57.6">mit</tspan><tspan class="cls-14" x="66.7" y="57.6">t</tspan><tspan x="71.42" y="57.6">el, z.B. du</tspan><tspan class="cls-18" x="138.52" y="57.6">r</tspan><tspan x="143.2" y="57.6">ch </tspan><tspan x="0" y="76.8">einen Stiftungsant</tspan><tspan class="cls-17" x="125.38" y="76.8">r</tspan><tspan x="130.3" y="76.8">ag</tspan></tspan></text>
+  <text class="cls-11" transform="translate(667 896.81)"><tspan class="cls-12">BOSF &amp; BOS Sc<tspan class="cls-20" x="114.23" y="0">h</tspan><tspan class="cls-15" x="123.76" y="0">w</tspan><tspan x="136.56" y="0">eiz: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">Un</tspan><tspan class="cls-14" x="19.85" y="19.2">t</tspan><tspan x="24.57" y="19.2">er</tspan><tspan class="cls-22" x="38.11" y="19.2">z</tspan><tspan x="45.53" y="19.2">eichnung eines </tspan><tspan x="0" y="38.4">Memo</tspan><tspan class="cls-17" x="43.84" y="38.4">r</tspan><tspan x="48.75" y="38.4">andum of </tspan><tspan x="0" y="57.6">Unders</tspan><tspan class="cls-21" x="50.24" y="57.6">t</tspan><tspan x="55.12" y="57.6">anding (MoU), das </tspan><tspan class="cls-19" x="0" y="76.8">K</tspan><tspan x="9.38" y="76.8">oope</tspan><tspan class="cls-17" x="44.49" y="76.8">r</tspan><tspan x="49.41" y="76.8">ation </tspan><tspan class="cls-18" x="87.34" y="76.8">f</tspan><tspan x="91.86" y="76.8">ormal </tspan><tspan class="cls-18" x="134.48" y="76.8">r</tspan><tspan x="139.16" y="76.8">egelt</tspan></tspan></text>
+  <text class="cls-11" transform="translate(354 896.81)"><tspan class="cls-12">BOSF &amp; <tspan x="0" y="19.2">Do</tspan><tspan class="cls-13" x="20.62" y="19.2">r</tspan><tspan class="cls-14" x="26.59" y="19.2">f</tspan><tspan x="32.09" y="19.2">gemeinschaf</tspan><tspan class="cls-15" x="129.09" y="19.2">t</tspan><tspan x="134.76" y="19.2">en: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="38.4">P</tspan><tspan class="cls-18" x="9.48" y="38.4">r</tspan><tspan x="14.16" y="38.4">ojektumsetzung und </tspan><tspan class="cls-18" x="0" y="57.6">r</tspan><tspan x="4.68" y="57.6">egelmässige </tspan><tspan x="0" y="76.8">Berich</tspan><tspan class="cls-14" x="43.91" y="76.8">t</tspan><tspan x="48.63" y="76.8">ers</tspan><tspan class="cls-21" x="69.85" y="76.8">t</tspan><tspan x="74.73" y="76.8">attung an BOS </tspan><tspan x="0" y="96">Schweiz</tspan></tspan></text>
+  <text class="cls-11" transform="translate(125 721.81)"><tspan class="cls-12">BOS Sc<tspan class="cls-20" x="54.91" y="0">h</tspan><tspan class="cls-15" x="64.44" y="0">w</tspan><tspan x="77.24" y="0">eiz: </tspan></tspan><tspan class="cls-16"><tspan class="cls-19" x="0" y="19.2">K</tspan><tspan x="9.38" y="19.2">ont</tspan><tspan class="cls-18" x="31.82" y="19.2">r</tspan><tspan x="36.5" y="19.2">olle, </tspan><tspan class="cls-19" x="68.36" y="19.2">f</tspan><tspan x="72.8" y="19.2">achliche </tspan><tspan x="0" y="38.4">Un</tspan><tspan class="cls-14" x="19.85" y="38.4">t</tspan><tspan x="24.57" y="38.4">erstützung, </tspan><tspan class="cls-23" x="106.55" y="38.4">V</tspan><tspan x="115.86" y="38.4">er</tspan><tspan class="cls-17" x="129.4" y="38.4">w</tspan><tspan x="141.05" y="38.4">altung </tspan><tspan x="0" y="57.6">der Mit</tspan><tspan class="cls-14" x="48.14" y="57.6">t</tspan><tspan x="52.86" y="57.6">el, Berich</tspan><tspan class="cls-14" x="116.48" y="57.6">t</tspan><tspan x="121.2" y="57.6">ers</tspan><tspan class="cls-21" x="142.43" y="57.6">t</tspan><tspan x="147.3" y="57.6">attung </tspan><tspan x="0" y="76.8">an Geldgebe</tspan><tspan class="cls-23" x="88.32" y="76.8">r</tspan><tspan x="92.61" y="76.8">, PR</tspan></tspan></text>
+  <text class="cls-11" transform="translate(41 488.81)"><tspan class="cls-12">BOSF &amp; BOS Sc<tspan class="cls-20" x="114.23" y="0">h</tspan><tspan class="cls-15" x="123.76" y="0">w</tspan><tspan x="136.56" y="0">eiz: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">Zwischenanalysen und </tspan><tspan x="0" y="38.4">Anpassung der </tspan><tspan x="0" y="57.6">P</tspan><tspan class="cls-18" x="9.48" y="57.6">r</tspan><tspan x="14.16" y="57.6">ojek</tspan><tspan class="cls-21" x="42.78" y="57.6">t</tspan><tspan x="47.66" y="57.6">aktivi</tspan><tspan class="cls-21" x="83.63" y="57.6">t</tspan><tspan x="88.5" y="57.6">ä</tspan><tspan class="cls-14" x="96.8" y="57.6">t</tspan><tspan x="101.52" y="57.6">en</tspan></tspan></text>
+  <text class="cls-11" transform="translate(158 210.81)"><tspan class="cls-12">BOS<tspan class="cls-20" x="32.45" y="0">F</tspan><tspan x="41.18" y="0">: </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">P</tspan><tspan class="cls-18" x="9.48" y="19.2">r</tspan><tspan x="14.16" y="19.2">ojek</tspan><tspan class="cls-21" x="42.78" y="19.2">t</tspan><tspan x="47.66" y="19.2">abschluss und </tspan><tspan x="0" y="38.4">E</tspan><tspan class="cls-17" x="8.84" y="38.4">v</tspan><tspan x="16.66" y="38.4">aluation</tspan></tspan></text>
+  <text class="cls-11" transform="translate(383 54.81)"><tspan class="cls-12">BOS Sc<tspan class="cls-20" x="54.91" y="0">h</tspan><tspan class="cls-15" x="64.44" y="0">w</tspan><tspan x="77.24" y="0" xml:space="preserve">eiz:  </tspan></tspan><tspan class="cls-16"><tspan x="0" y="19.2">Ende</tspan><tspan class="cls-17" x="35.18" y="19.2">v</tspan><tspan x="43.01" y="19.2">aluation; </tspan><tspan x="0" y="38.4">Abschlussbericht an </tspan><tspan x="0" y="57.6">Geldgeber; gg</tspan><tspan class="cls-24" x="98.62" y="57.6">f</tspan><tspan x="102.98" y="57.6">. </tspan><tspan class="cls-14" x="110.88" y="57.6">A</tspan><tspan x="120.73" y="57.6">u</tspan><tspan class="cls-18" x="129.45" y="57.6">f</tspan><tspan x="133.97" y="57.6">gleisen </tspan><tspan x="0" y="76.8">eines </tspan><tspan class="cls-17" x="40.52" y="76.8">F</tspan><tspan x="48.81" y="76.8">olgep</tspan><tspan class="cls-18" x="87.59" y="76.8">r</tspan><tspan x="92.27" y="76.8">ojek</tspan><tspan class="cls-14" x="120.9" y="76.8">t</tspan><tspan x="125.62" y="76.8">es</tspan></tspan></text>
+  <text class="cls-25" transform="translate(712.05 234.44)">1</text>
+  <text class="cls-25" transform="translate(865.1 363.44)">2</text>
+  <text class="cls-25" transform="translate(908.45 563.44)">3</text>
+  <text class="cls-25" transform="translate(829.02 745.44)">4</text>
+  <text class="cls-25" transform="translate(639.57 845.44)">5</text>
+  <text class="cls-25" transform="translate(451.13 835.44)">6</text>
+  <text class="cls-25" transform="translate(304.83 685.44)">7</text>
+  <text class="cls-25" transform="translate(250.91 479.44)">8</text>
+  <text class="cls-25" transform="translate(338.09 295.44)">9</text>
+  <text class="cls-25" transform="translate(508.43 196.44)">10</text>
+</svg>

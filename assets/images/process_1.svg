@@ -22,11 +22,11 @@
       }
 
       .cls-4 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-family: SFUIDisplay-Light, SF UI Display;
       }
 
       .cls-5 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-family: SFUIDisplay-Bold, SF UI Display;
         font-weight: 700;
       }
 

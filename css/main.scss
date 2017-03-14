@@ -142,12 +142,22 @@ body {
 
 .svg {
     background: none;
+    max-height: 170px;
+    position: relative;
+    z-index: 0;
 
     &.dark {
         svg {
             fill: $dark-leaves;
         }
     }
+
+        &.final {
+          background: $peach;
+            svg {
+                fill: $dark-leaves;
+            }
+        }
 
     &.light {
         background:$dark-leaves;
@@ -281,6 +291,7 @@ $red-orange: #ff5035;
             border-bottom: 20px solid $earthy7;
             padding-bottom: 1.6rem;
             background: rgba($earthy7,.7);
+            background: rgba(white,.6);
             padding: 1rem;
         }
 
@@ -352,12 +363,11 @@ $red-orange: #ff5035;
     }
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Francois One', cursive;
     color: $titles;
     color: $maroon;
     color: $pale-maroon;
-    font-weight: 700;
 }
 
 h1 {
@@ -372,7 +382,7 @@ h1 {
     @include clearfix;
     margin:0;
 
-    padding: 0;
+    padding:  0;
     max-width: 100vw;
 
     @include breakpoint(small only) {
@@ -393,6 +403,7 @@ body.subpage > .section.light {
     }
 
 .section-title {
+  position: relative;
     @include grid-column(12);
 
     h2 {
@@ -406,6 +417,7 @@ body.subpage > .section.light {
 }
 
 .section-content {
+  position: relative;
     h4 {
         font-weight: 700;
         text-transform: uppercase;
@@ -779,6 +791,10 @@ svg#process {
 
 footer {
   padding: 12px;
+
+  div {
+    position: relative;
+  }
   @include breakpoint(medium){
     padding: 24px;
   }
