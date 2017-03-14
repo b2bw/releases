@@ -10,7 +10,7 @@ tmp=$(mktemp --suffix=.html)
 # =======
 # http://born2bewild.org            -> http://bos-schweiz.ch
 # ------------------------------------------------------------------------------
-# /releases                         -> /de/auswilderungen/auswilderung12.htm
+# /releases                         -> /de/auswilderungen/auswilderungen1.htm
 # /releases/ost-kalimantan.html     -> /de/auswilderungen/ost-kalimantan.htm
 # /releases/salat-island.html       -> /de/auswilderungen/salat-island.htm
 # /releases/technische-details.html -> /de/auswilderungen/technische-details.htm
@@ -28,7 +28,7 @@ sed -i "s|$base/salat-island.html|$target/salat-island.htm|" $tmp
 sed -i "s|$base/technische-details.html|$target/technische-details.htm|" $tmp
 
 # upload temp file to secondary hosting via s3
-aws s3 cp --acl public-read $tmp $prefix$target/auswilderung12.htm
+aws s3 cp --acl public-read $tmp $prefix$target/auswilderungen1.htm
 
 # ost-kalimantan
 wget -kO $tmp $base/ost-kalimantan.html
