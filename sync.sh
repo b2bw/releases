@@ -5,16 +5,14 @@ prefix=s3://www.bos-schweiz.ch
 # create a temp file to hold html
 tmp=$(mktemp --suffix=.html)
 
-
 # MAPPING
 # =======
 # http://born2bewild.org            -> http://bos-schweiz.ch
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # /releases                         -> /f/auswilderungen/index.htm
 # /releases/ost-kalimantan.html     -> /f/auswilderungen/ost-kalimantan.htm
 # /releases/salat-island.html       -> /f/auswilderungen/salat-island.htm
 # /releases/technische-details.html -> /f/auswilderungen/technische-details.htm
-
 
 base='http://born2bewild.org/releases'
 target='/f/auswilderungen'
@@ -51,9 +49,10 @@ sed -i "s|$base/salat-island.html|$target/salat-island.htm|" $tmp
 sed -i "s|$base/#technische-details|$target.htm#technische-details|" $tmp
 aws s3 cp --acl public-read $tmp $prefix$target/technische-details.htm
 
+
 # remove temp file
 rm $tmp
 
 # send an email to local user root
-echo "http://www.bos-schweiz.ch/de/auswilderungen/auswilderung12.htm" \
+echo "http://bos-schweiz.ch/f/auswilderungen/" \
     | mail -s "LP Releases has been updated." root
