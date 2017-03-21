@@ -54,5 +54,5 @@ aws s3 cp --acl public-read $tmp $prefix$target/technische-details.htm
 rm $tmp
 
 # send an email to local user root
-echo "http://bos-schweiz.ch/f/auswilderungen/" \
+echo "http://www.bos-schweiz.ch/f/auswilderungen/" \
     | mail -s "LP Releases has been updated." root
