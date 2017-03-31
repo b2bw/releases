@@ -229,10 +229,10 @@ $red-orange: #ff5035;
 
 
     img.hero {
-        margin-top: -36px;
+        // margin-top: -36px;
         margin-bottom: 48px;
         @include breakpoint(medium) {
-          margin-top: -48px;
+          // margin-top: -48px;
           margin-bottom: 12px;
         }
     }
@@ -259,13 +259,12 @@ $red-orange: #ff5035;
     //         fill: orange;
     //     }
     // }
-
-    .floating-textbox {
-        margin-left: 24px;
+  .floating-textbox {
         margin-top: -24px;
-        margin-right: 24px;
 
         @include breakpoint(large) {
+          margin-left: 24px;
+          margin-right: 24px;
             max-width: 600px;
             position: absolute;
 
@@ -274,7 +273,6 @@ $red-orange: #ff5035;
             bottom: 24px;
             right: 24px;
         }
-
         svg {
             position: absolute;
             width: 124%;
@@ -417,7 +415,7 @@ body.subpage > .section.light {
 }
 
 .section-content {
-  position: relative;
+  // position: relative;
     h4 {
         font-weight: 700;
         text-transform: uppercase;
