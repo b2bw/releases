@@ -478,7 +478,7 @@ body.subpage > .section.light {
 
     @include grid-column(6);
     @include grid-column-collapse;
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
         @include grid-column(4);
 
         float: left;
@@ -566,7 +566,7 @@ body.subpage > .section.light {
     padding: 12px;
     margin-bottom: -20px;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
         @include grid-column(4);
     }
 
@@ -837,5 +837,24 @@ footer {
     li a {
       color: $pale-maroon;
     }
+  }
+}
+
+.social-share {
+  margin-top: 48px;
+  @include breakpoint(large){
+    margin-top: 12px;
+  }
+  a {
+    
+    color: $dark-maroon;
+    margin-right: 12px;
+    &:hover {
+      color: $maroon;
+    }
+  }
+  svg {
+    width: 24px;
+    height: 24px;
   }
 }
