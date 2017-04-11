@@ -23,13 +23,12 @@
 
       .cls-3 {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-
         font-weight: 700;
       }
 
       .cls-17, .cls-19, .cls-5 {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-
+        font-weight: 300;
       }
 
       .cls-6 {
@@ -100,8 +99,8 @@
     <g>
       <text class="cls-3" transform="translate(369.54 114.61)">Phase 1</text>
       <g class="cls-4">
-        <text class="cls-5" transform="translate(260.34 143.68)"><tspan class="cls-6">R</tspan><tspan x="13.98" y="0">ettung &amp; </tspan><tspan class="cls-6" x="106.43" y="0">R</tspan><tspan x="120.41" y="0">ehabili</tspan><tspan class="cls-7" x="185.63" y="0">t</tspan><tspan x="192.45" y="0">ation: </tspan><tspan class="cls-8" x="253.44" y="0">W</tspan><tspan x="273.73" y="0">ald</tspan></text>
-        <text class="cls-5" transform="translate(272.09 172.48)"><tspan class="cls-9">K</tspan><tspan x="14.31" y="0">inde</tspan><tspan class="cls-10" x="57.89" y="0">r</tspan><tspan class="cls-11" x="64.59" y="0">g</tspan><tspan x="77.86" y="0">a</tspan><tspan class="cls-12" x="90.14" y="0">r</tspan><tspan class="cls-13" x="97.68" y="0">t</tspan><tspan x="104.26" y="0">en &amp; </tspan><tspan class="cls-8" x="156.43" y="0">W</tspan><tspan x="176.72" y="0">ald </tspan><tspan class="cls-14" x="212.45" y="0">S</tspan><tspan x="226.49" y="0">chule</tspan></text>
+        <text class="cls-5" transform="translate(260.34 143.68)">Rettung &amp; Rehabilitation: Wald</text>
+        <text class="cls-5" transform="translate(272.09 172.48)">Kindergarten &amp; Wald Schule</text>
       </g>
       <g>
         <path class="cls-15" d="M447.49,65.89a1.21,1.21,0,0,1-1.28-1.28V42.32l-4.1-2H391.63l-9.48,12v12.3a1.28,1.28,0,1,1-2.56,0h0V51.8a.94.94,0,0,1,.26-.77L390.1,38.22a1.33,1.33,0,0,1,1-.51h51.25c.26,0,.51,0,.51.26L448,40.53c.51,0,.77.51.77,1V64.59a1.21,1.21,0,0,1-1.12,1.3Z"/>
@@ -121,8 +120,8 @@
     <g>
       <text class="cls-3" transform="translate(709.68 424.64)">Phase 2</text>
       <g class="cls-4">
-        <text class="cls-5" transform="translate(689.42 453.71)"><tspan class="cls-9">P</tspan><tspan class="cls-10" x="13.86" y="0">r</tspan><tspan x="20.57" y="0">e-</tspan><tspan class="cls-6" x="43.41" y="0">R</tspan><tspan x="57.39" y="0">elease:</tspan></text>
-        <text class="cls-5" transform="translate(672.66 482.51)"><tspan class="cls-8">W</tspan><tspan x="20.29" y="0">ald Uni</tspan><tspan class="cls-16" x="89.68" y="0">v</tspan><tspan x="100.89" y="0">e</tspan><tspan class="cls-6" x="113.48" y="0">r</tspan><tspan x="120.84" y="0">si</tspan><tspan class="cls-7" x="136.64" y="0">t</tspan><tspan x="143.46" y="0">ät</tspan></text>
+        <text class="cls-5" transform="translate(689.42 453.71)">Pre-Release:</text>
+        <text class="cls-5" transform="translate(672.66 482.51)">Wald Universität</text>
       </g>
       <g>
         <path class="cls-15" d="M733.63,383a1.25,1.25,0,0,1-1-.48c-3.6-6-7.44-13.44-7.44-19.92,0-2.88,1.68-6.48,3.12-10.32,1.92-4.32,4.08-9.36,4.08-13.68a1.2,1.2,0,0,1,2.4,0c0,4.8-2.16,10.08-4.08,14.64-1.68,3.6-3.12,7-3.12,9.36,0,5.52,3.6,12.72,6.48,17.76a11.66,11.66,0,0,1,6.24-.48,70.38,70.38,0,0,0,11.28.72,128.94,128.94,0,0,0,16.8-1.2,92.26,92.26,0,0,1,13.2-1.2,1.2,1.2,0,0,1,0,2.4,91.89,91.89,0,0,0-12.72,1,98.73,98.73,0,0,1-17.24,1.4,71.79,71.79,0,0,1-11.52-.72c-1.92-.24-2.4-.48-6.24.72Z"/>
@@ -135,7 +134,7 @@
     <g>
       <text class="cls-3" transform="translate(434.89 557.32)">Phase 3</text>
       <g class="cls-4">
-        <text class="cls-17" transform="translate(413.65 586.39)">A<tspan class="cls-18" x="13.89" y="0">uswilderung</tspan></text>
+        <text class="cls-17" transform="translate(413.65 586.39)">Auswilderung</text>
       </g>
       <g id="_Group_" data-name=" Group ">
         <g id="_Group_2" data-name=" Group 2">
@@ -161,8 +160,8 @@
     <g>
       <text class="cls-3" transform="translate(150.75 550.14)">Phase 4</text>
       <g class="cls-4">
-        <text class="cls-19" transform="translate(129.42 579.21)">P<tspan class="cls-18" x="12.83" y="0">ost-</tspan><tspan class="cls-20" x="52.39" y="0">R</tspan><tspan class="cls-18" x="65.89" y="0">elease</tspan></text>
-        <text class="cls-5" transform="translate(140.24 608.01)">Moni<tspan class="cls-13" x="49.88" y="0">t</tspan><tspan x="56.46" y="0">oring</tspan></text>
+        <text class="cls-19" transform="translate(129.42 579.21)">Post-Release</text>
+        <text class="cls-5" transform="translate(140.24 608.01)">Monitoring</text>
       </g>
       <g>
         <path class="cls-15" d="M169.72,458.32c-.48,0-.72-.24-1-.72a1.59,1.59,0,0,1,.48-1.68l10.79-6a1.24,1.24,0,1,1,1.2,2.16l-11,6C170.2,458.32,170,458.32,169.72,458.32Z"/>

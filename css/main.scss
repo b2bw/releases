@@ -431,6 +431,10 @@ body.subpage > .section.light {
         letter-spacing: .08rem;
     }
 
+    h3 {
+        margin-bottom: 3rem;
+    }
+
     @include grid-column(12);
     @include breakpoint(medium) {
         @include grid-column(10);
@@ -446,8 +450,12 @@ body.subpage > .section.light {
     }
 
 
-    p.lead, img {
+    p.lead {
         margin-bottom: 24px;
+    }
+
+    img {
+        margin-bottom: 4rem;
     }
 
     p {
