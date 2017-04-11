@@ -84,3 +84,20 @@ var facebook = function(e){
   social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location);
   window.open(social_url, "_blank").focus();
 }
+
+
+// floating text-box don't cover the top stuff!!
+var $floater = $('.floating-textbox');
+function spaceOutTheFloater(){
+  if (window.innerHeight <= 820) {
+  $floater.addClass('give-room');
+  } else {
+    $floater.removeClass('give-room');
+  }
+};
+
+window.onresize = function() {
+      spaceOutTheFloater();
+}
+
+spaceOutTheFloater();
